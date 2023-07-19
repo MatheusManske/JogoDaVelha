@@ -1,0 +1,88 @@
+#quemJoga{
+    text-align: left;
+    font-size: 40px;
+    font-family: cursive;
+    position: absolute;
+    margin-top: 50px;
+    border: 1px groove rgb(0, 0, 0)
+   
+}
+
+#reload{
+    font-size: larger;
+    float: left;
+    margin-top:110px;
+    color: rgb(0, 170, 85);
+    background-color: black;
+    cursor: pointer;
+    border-style: groove;
+    display:none;
+}
+
+#body {
+    background-color: rgb(255, 255, 255);
+}
+
+#centro {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#jogo {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.space {
+    width: 180px;
+    height: 180px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 150px;
+    justify-content: center;
+    font-family: cursive;
+    color: darkgreen
+}
+
+#dv1 {
+    border-right: 3px solid darkblue;
+    border-bottom: 3px solid darkblue;
+}
+
+#dv2 {
+    border-bottom: 3px solid darkblue;
+    border-right: 3px solid darkblue;
+}
+
+#dv3 {
+    border-bottom: 3px solid darkblue;
+}
+
+#dv4 {
+    border-bottom: 3px solid darkblue;
+    border-right: 3px solid darkblue;
+}
+
+#dv5 {
+    border-bottom: 3px solid darkblue;
+    border-right: 3px solid darkblue;
+}
+
+#dv6 {
+    border-bottom: 3px solid darkblue;
+}
+
+#dv7 {
+    border-right: 3px solid darkblue;
+}
+
+#dv8 {
+    border-right: 3px solid darkblue;
+}
