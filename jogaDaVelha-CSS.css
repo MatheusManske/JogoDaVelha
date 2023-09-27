@@ -1,32 +1,40 @@
-#quemJoga{
-    text-align: left;
+#quemJoga {
+    display: flex;
+    align-items: center; /* Alinhar verticalmente ao centro */
     font-size: 40px;
-    font-family: cursive;
-    position: absolute;
-    margin-top: 50px;
-    border: 1px groove rgb(0, 0, 0)
-   
+    font-family: sans-serif;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    position: relative;
+    bottom: 30px;
 }
 
-#reload{
-    font-size: larger;
-    float: left;
-    margin-top:110px;
+#reload {
+    font-size: large;
     color: rgb(0, 170, 85);
     background-color: black;
     cursor: pointer;
     border-style: groove;
-    display:none;
+    display: none;
+    margin-top: -60px;
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+   
 }
 
 #body {
-    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
 }
 
 #centro {
     width: 550px;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(255, 255, 255);
 }
 
 #jogo {
@@ -51,38 +59,20 @@
     color: darkgreen
 }
 
-#dv1 {
-    border-right: 3px solid darkblue;
-    border-bottom: 3px solid darkblue;
-}
-
+#dv4,
+#dv5,
+#dv1,
 #dv2 {
     border-bottom: 3px solid darkblue;
     border-right: 3px solid darkblue;
 }
 
+#dv6,
 #dv3 {
     border-bottom: 3px solid darkblue;
 }
 
-#dv4 {
-    border-bottom: 3px solid darkblue;
-    border-right: 3px solid darkblue;
-}
-
-#dv5 {
-    border-bottom: 3px solid darkblue;
-    border-right: 3px solid darkblue;
-}
-
-#dv6 {
-    border-bottom: 3px solid darkblue;
-}
-
-#dv7 {
-    border-right: 3px solid darkblue;
-}
-
+#dv7,
 #dv8 {
     border-right: 3px solid darkblue;
 }
